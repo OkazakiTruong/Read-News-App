@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appdocbao">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppDocBao"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".aboutUS"
+            android:exported="false" />
+        <activity
+            android:name=".Other"
+            android:exported="false" />
+        <activity
+            android:name=".Categlories"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BaoVatVo"
+            android:exported="false" />
+        <activity
+            android:name=".BaoTeachRoom"
+            android:exported="false" />
+        <activity
+            android:name=".BaoGenK"
+            android:exported="false" />
+        <activity
+            android:name=".BaoTechZ"
+            android:exported="false" />
+        <activity
+            android:name=".BaoTechMag"
+            android:exported="false" />
+        <activity
+            android:name=".BaoVatVoChiTiet"
+            android:exported="false" />
+        <activity
+            android:name=".BaoTeachRoomChitiet"
+            android:exported="false" />
+        <activity
+            android:name=".BaoGenKChiTiet"
+            android:exported="false" />
+        <activity
+            android:name=".BaoTechZChitiet"
+            android:exported="false" />
+        <activity
+            android:name=".BaoTechMagChitiet"
+            android:exported="false" />
+        <activity
+            android:name=".TinTucChiTiet"
+            android:exported="false" />
+        <activity android:name=".MobileChitiet"
+            android:exported="false"/>
+        <activity android:name=".GocNhinChiTiet"
+            android:exported="false"/>
+        <activity android:name=".TipChiTiet"
+            android:exported="false"/>
+        <activity android:name=".BaoVfo"
+            android:exported="false"/>
+        <activity android:name=".BaoVfoChiTiet"
+            android:exported="false"/>
+    </application>
+
+</manifest>

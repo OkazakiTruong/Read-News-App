@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Tin tức"
+        android:id="@+id/navTinTuc"/>
+    <item android:title="Mobile"
+        android:id="@+id/navMobile"/>
+    <item android:title="Góc Nhìn"
+        android:id="@+id/navGocNhin"/>
+    <item android:title="Tip and Tricks"
+        android:id="@+id/navTipAndTricks"/>
+</menu>

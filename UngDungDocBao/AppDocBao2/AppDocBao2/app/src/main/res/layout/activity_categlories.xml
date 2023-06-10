@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:background="@drawable/bg_4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categlories"
+    >
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnav_Categlories"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/custom_nav_item"
+        app:itemBackground="@color/backgroundnav"
+        app:itemIconTint="@color/custom_color_item_nav"
+        app:itemTextColor="@color/custom_color_item_nav"
+        >
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="671dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    app:cardCornerRadius="20dp">
+                <ImageView
+                    android:id="@+id/ivVatVo"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/vatvo_logo" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    app:cardCornerRadius="20dp">
+                <ImageView
+                    android:id="@+id/ivGenk"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/genk_logo" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    app:cardCornerRadius="20dp">
+                    <ImageView android:id="@+id/ivVfo"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/vfo_logo" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginLeft="10dp">
+                <ImageView
+                    android:id="@+id/ivTeachRoom"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/teachroom_logo" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginRight="10dp"
+                    >
+                <ImageView
+                    android:id="@+id/ivTechMac"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/techmag_logo" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    app:cardCornerRadius="20dp"
+                    >
+                <ImageView
+                    android:id="@+id/ivTeachZ"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/techz_logo" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

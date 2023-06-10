@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="HOME"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/outline_home_black_24dp"/>
+    <item android:title="CATEGLORIES"
+        android:id="@+id/nav_categlories"
+        android:icon="@drawable/outline_widgets_black_24dp"/>
+    <item android:title="OTHER"
+        android:id="@+id/nav_other"
+        android:icon="@drawable/outline_info_black_24dp"/>
+</menu>
